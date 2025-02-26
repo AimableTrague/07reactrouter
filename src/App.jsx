@@ -1,13 +1,13 @@
 import React from 'react'
-import './App.css'
-import './index.css';
-
+import Test from './components/Test'
+// Remove './index.css' import since it's already in main.jsx
+// import './index.css'
 
 function App() {
-
   return (
     <>
-      <h1>React Router Dom</h1>
+      <h1 className="text-3xl font-bold text-blue-600">React Router Dom</h1>
+      <Test />
     </>
   )
 }
